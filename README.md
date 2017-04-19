@@ -14,6 +14,18 @@ of smooth, one-dimensional Gaussian fields to make statistical
 inferences regarding a set of one-dimensional continua.
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/spm1d-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/spm1d-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/spm1d-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/spm1d-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/spm1d-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/spm1d-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/spm1d/badges/version.svg)](https://anaconda.org/conda-forge/spm1d)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/spm1d/badges/downloads.svg)](https://anaconda.org/conda-forge/spm1d)
+
 Installing spm1d
 ================
 
@@ -34,7 +46,6 @@ It is possible to list all of the versions of `spm1d` available on your platform
 ```
 conda search spm1d --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -70,18 +81,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/spm1d-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/spm1d-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/spm1d-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/spm1d-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/spm1d-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/spm1d-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/spm1d/badges/version.svg)](https://anaconda.org/conda-forge/spm1d)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/spm1d/badges/downloads.svg)](https://anaconda.org/conda-forge/spm1d)
 
 
 Updating spm1d-feedstock
