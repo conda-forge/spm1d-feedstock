@@ -17,14 +17,15 @@ inferences regarding a set of one-dimensional continua.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/spm1d-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/spm1d-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/spm1d-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/spm1d-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/spm1d-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/spm1d-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/spm1d-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/spm1d-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/spm1d/badges/version.svg)](https://anaconda.org/conda-forge/spm1d)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/spm1d/badges/downloads.svg)](https://anaconda.org/conda-forge/spm1d)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-spm1d-green.svg)](https://anaconda.org/conda-forge/spm1d) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/spm1d.svg)](https://anaconda.org/conda-forge/spm1d) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/spm1d.svg)](https://anaconda.org/conda-forge/spm1d) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/spm1d.svg)](https://anaconda.org/conda-forge/spm1d) |
 
 Installing spm1d
 ================
@@ -69,6 +70,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
