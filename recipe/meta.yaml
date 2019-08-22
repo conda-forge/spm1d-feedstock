@@ -1,6 +1,6 @@
 {% set name = "spm1d" %}
-{% set version = "0.4.0" %}
-{% set sha256 = "834195f92f19a68970194e61ec5862fe09ac14a4156cd8eef7e159805b33a3c0" %}
+{% set version = "0.4.2" %}
+{% set sha256 = "4f19ee516834ddea6b80c1befbf0de12e281ab598776e8e7d131241261c64ac3" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
