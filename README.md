@@ -5,7 +5,7 @@ Home: http://www.spm1d.org/
 
 Package license: GPL-3.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: One-Dimensional Statistical Parametric Mapping in Python
 
