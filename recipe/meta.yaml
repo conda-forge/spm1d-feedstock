@@ -1,6 +1,6 @@
 {% set name = "spm1d" %}
-{% set version = "0.4.0" %}
-{% set sha256 = "834195f92f19a68970194e61ec5862fe09ac14a4156cd8eef7e159805b33a3c0" %}
+{% set version = "0.4.33" %}
+{% set sha256 = "34414c5bd78b2c411cfc85e722842c7a0765a4923f30868bc502a16daffbea54" %}
 
 package:
   name: {{ name|lower }}
@@ -8,34 +8,35 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
-  number: 2
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 3
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - pip
-    - python
+    - python {{ python_min }}
     - setuptools
   run:
-    - python
+    - python >={{ python_min }}
     - scipy
     - numpy
     - matplotlib-base
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - spm1d
 
 about:
   home: http://www.spm1d.org/
-  license: GPL-3.0
-  # xref: https://github.com/0todd0000/spm1d/pull/57
-  #license_file: LICENSE.txt
+  license: GPL-3.0-or-later
+  license_file: LICENSE.txt
   summary: 'One-Dimensional Statistical Parametric Mapping in Python'
   description: |
     spm1d uses Random Field Theory expectations regarding the behavior 
