@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spm1d-feedstock
 
 Home: http://www.spm1d.org/
 
-Package license: GPL-3.0
+Package license: GPL-3.0-or-later
 
 Summary: One-Dimensional Statistical Parametric Mapping in Python
 
