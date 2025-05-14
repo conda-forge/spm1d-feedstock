@@ -1,6 +1,6 @@
 {% set name = "spm1d" %}
-{% set version = "0.4.35" %}
-{% set sha256 = "6ba04ba99f4b69cdee64607cec6dc06a79fa8ba8e8e0ac97d2955dd695932d29" %}
+{% set version = "0.4.36" %}
+{% set sha256 = "d829704764d7fbf67fc97d90c4d12335d167fc9603817449887e785900a0c3f5" %}
 
 package:
   name: {{ name|lower }}
