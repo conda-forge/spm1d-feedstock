@@ -1,6 +1,6 @@
 {% set name = "spm1d" %}
-{% set version = "0.4.53" %}
-{% set sha256 = "13163a8ae4e5d4c0c8f518432efaa1d7be30b4b09a976a600953ffab2599a4f8" %}
+{% set version = "0.4.54" %}
+{% set sha256 = "e50d7f02a09e739b1209ba8da5a5b34a93b29c3f3a492c2924690c9f59e6a891" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
